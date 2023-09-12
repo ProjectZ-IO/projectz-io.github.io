@@ -3232,6 +3232,34 @@
       padding-top: 100px;
       padding-top: 50px;
     }
+
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 250px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .fixed-header .visible-title .dropdown-content a {
+      color: black !important;
+    }
+
+
+    .dropdown-content a:hover {background-color: #ddd;}
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
   </style>
 
   
@@ -3256,6 +3284,14 @@
             </li>
             <li class="nav-item desktop_nav_item dropdown">
               <a class="nav-link" onclick="services(event)" id="navbarDropdown" href="index.html#services">Services</a>
+              <div class="dropdown-content">
+                <a href="./natural-language-processing.html">Natural Language Processing</a>
+                <a href="./computer-vision.html">Computer Vision</a>
+                <a href="./data-orchestration.html">Data Orchestration</a>
+                <a href="./data-analytics.html">Data Analytics</a>
+                <a href="./web-development.html">Web Development</a>
+                <a href="./mobile-app-development.html">Mobile App Development</a>
+              </div>
               <!-- <ul class="dropdown-menu drop_down_ul" aria-labelledby="navbarDropdown">
                 <li class="drop_down_li"><a class="dropdown-item" href="index.html#projectComplete">Projects Completed</a></li>
               </ul> -->
@@ -3778,6 +3814,17 @@
       $(".front").css("height", highest);
       $(".back").css("height", highest);
       $(absoluteSide).css("position", "absolute");
+
+
+      $(window).scroll(function () {
+      if ($(window).scrollTop() >= 100) {
+        $("nav").addClass("fixed-header");
+        $("nav div").addClass("visible-title");
+      } else {
+        $("nav").removeClass("fixed-header");
+        $("nav div").removeClass("visible-title");
+      }
+    });
   </script>
 </body>
 
