@@ -1790,7 +1790,7 @@
         </div>
       </div>
       <div class="row first_serve">
-        <div class="col-md-4 market_consoulat_col will-fadeIn">
+        <div id="nlp_div" class="col-md-4 market_consoulat_col will-fadeIn">
           <div class="market_consoulat w-100 ms-auto me-auto">
             <div class="icon">
               <img src="assest/images/icons8-protect-50.png" alt="">
@@ -1824,7 +1824,7 @@
           }
 
         </style>
-        <div class="col-md-4 market_consoulat_col will-fadeIn">
+        <div id="cv_div" class="col-md-4 market_consoulat_col will-fadeIn">
           <div class="market_consoulat w-100 ms-auto me-auto">
             <div class="icon">
               <img src="assest/images/icons8-computer-support-50.png" alt="">
@@ -1839,7 +1839,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 market_consoulat_col will-fadeIn">
+        <div id="data_div" class="col-md-4 market_consoulat_col will-fadeIn">
           <div class="market_consoulat w-100 ms-auto me-auto">
             <div class="icon">
 
@@ -1857,7 +1857,7 @@
         </div>
       </div>
       <div class="row first_serve">
-        <div class="col-md-4 market_consoulat_col will-fadeIn">
+        <div id="orc_div" class="col-md-4 market_consoulat_col will-fadeIn">
           <div class="market_consoulat w-100 ms-auto me-auto">
             <div class="icon">
               <i class="fa fa-wrench" style="font-size: 35px;"></i>
@@ -1873,7 +1873,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 market_consoulat_col will-fadeIn">
+        <div id="web_div" class="col-md-4 market_consoulat_col will-fadeIn">
           <div class="market_consoulat w-100 ms-auto me-auto">
             <div class="icon">
               <i class="fa fa-connectdevelop" style="font-size: 35px;"></i>
@@ -1890,7 +1890,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 market_consoulat_col will-fadeIn">
+        <div id="mobile_div" class="col-md-4 market_consoulat_col will-fadeIn">
           <div class="market_consoulat w-100 ms-auto me-auto">
             <div class="icon">
               <i class="fa fa-mobile" style=" font-size: 49px;
@@ -3073,6 +3073,31 @@
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/mouse0270-bootstrap-notify/3.1.5/bootstrap-notify.min.js"></script>
   <script>
+    $('#nlp_div').click(function(){
+      window.location = 'natural-language-processing.html'
+    })
+
+    $('#web_div').click(function(){
+      window.location = 'web-development.html'
+    })
+
+    $('#mobile_div').click(function(){
+      window.location = 'mobile-app-development.html'
+    })
+
+    $('#cv_div').click(function(){
+      window.location = 'computer-vision.html'
+    })
+
+    $('#data_div').click(function(){
+      window.location = 'data-analytics.html'
+    })
+
+    $('#orc_div').click(function(){
+      window.location = 'data-orchestration.html'
+    })
+  </script>
+  <script>
     $(".dropdown").hover(
       function () {
         $(this).find(".dropdown-menu").stop(true, true).delay(200).fadeIn(500);
@@ -3376,6 +3401,9 @@
 
     }
 
+
+
+    
     // Partical js
 
 
