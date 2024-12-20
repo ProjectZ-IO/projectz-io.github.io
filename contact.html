@@ -89,9 +89,12 @@
                            	   <!-- <li><a href="choose-us.html">Why Choose Us</a></li> -->
                            	   <!-- <li><a href="mission.html">Mission Visson </a></li> -->
                            	   <!-- <li><a href="team.html">Our Team</a></li> -->
-                           	   <li><a href="team-details.html">Meet Our CEO </a></li>
+                           	   <li><a href="ceo.html">Meet Our CEO </a></li>
+								  <li><a href="about-1.html">About</a></li>
+								  <li><a href="service.html">Our Service</a></li>
+								  <li><a href="service-details.html">Service Details</a></li>
                            	   <!-- <li><a href="project.html">Our Project</a></li> -->
-                           	   <li><a href="project-details.html"> Our Project </a></li>
+                           	   <!-- <li><a href="project-details.html"> Our Projects </a></li> -->
                            	   <!-- <li><a href="location.html">Our Location </a></li> -->
                            	   <!-- <li><a href="pricing.html">Our Pricing</a></li> -->
                            	   <li><a href="careers.html">Careers </a></li>
@@ -150,9 +153,12 @@
 				</li>
 				<li class="menu-item-has-children"><a href="#">Pages</a>
                    <ul class="sub-menu"> 
-                   	     <li><a href="team-details.html">Meet Our CEO </a></li>
+                   	     <li><a href="ceo.html">Meet Our CEO </a></li>
+							<li><a href="about-1.html">About</a></li>
+							<li><a href="service.html">Our Service</a></li>
+							<li><a href="service-details.html">Service Details</a></li>
                    	   <!-- <li><a href="project.html">Our Project</a></li> -->
-                   	   <li><a href="project-details.html">Our Project </a></li>
+                   	   <!-- <li><a href="project-details.html">Our Projects </a></li> -->
                    	   <!-- <li><a href="location.html">Our Location </a></li> -->
                    	   <!-- <li><a href="pricing.html">Our Pricing</a></li> -->
                    	   <li><a href="careers.html">Careers </a></li>
@@ -187,7 +193,7 @@
 				<div class="breadcumb-content">
 					<h4>Contact Us</h4>
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><a href="index-3.html">Home</a></li>
 						<li>></li>
 						<li>Contact Us</li>
 					</ul>
@@ -213,7 +219,7 @@
                 	<div class="contact-contetn">
                 		<h4>Write to Us Anytime</h4>
                 	</div>
-                	<form action="#">
+                	<form  id="myForm" action="https://formsubmit.co/info@projectz.io" method="POST" >
                 		<div class="row">
                 			<div class="col-lg-6">
                 				<div class="single-input-box">
@@ -222,7 +228,7 @@
                 			</div>              			
                 			<div class="col-lg-6">
                 				<div class="single-input-box">
-                					<input type="text" name="Email" placeholder="Enter E-Mail" required>
+                					<input type="email" name="email" placeholder="Enter E-Mail" required>
                 				</div>
                 			</div>                			
                 			<div class="col-lg-6">
@@ -231,15 +237,15 @@
                 				</div>
                 			</div>                			
                 			<div class="col-lg-6">
-                				<div class="single-input-box">
-                					<select name="place" id="place">
-						               <option value="saab">Subject</option>
-						               <option value="opel">Web Development </option>
-						               <option value="audi">Design </option>
-						               <option value="audi">Marketing</option>
-					                </select>
-                				</div>
-                			</div>
+								<div class="single-input-box">
+									<select name="subject" id="place" required>
+										<option value="" disabled selected>Select Subject</option>
+										<option value="Web Development">Web Development</option>
+										<option value="Design">Design</option>
+										<option value="Marketing">Marketing</option>
+									</select>
+								</div>
+							</div>
                 			<div class="col-lg-12">
                 				<div class="single-input-box">
                 					<textarea name="massage" id="massage" placeholder="Write Massage" required></textarea>
@@ -247,6 +253,10 @@
                 			</div>
                 			<div class="col-lg-12">
                 				<div class="massage-sent-button">
+									<input type="hidden" name="_captcha" value="false">
+									<input type="hidden" name="_next" value="https://www.projectz.io/welcome.html">
+									<!-- <input type="hidden" name="_next" value="http://127.0.0.1:5501/welcome.html"> -->
+									<input type="hidden" name="_subject" value="Projectz.io!">
                 					<button type="submit">Send Massage </button>
                 				</div>
                 			</div>
@@ -265,7 +275,7 @@
 						</div>
 						<div class="contact-info-content">
 							<p>Call Us</p>
-							<h4>+92 0303 4843811</h4>
+							<h4>+92 303 4843811</h4>
 						</div>
 					</div>					
 					<div class="contact-info-box">
@@ -274,7 +284,7 @@
 						</div>
 						<div class="contact-info-content">
 							<p>Send E-Mail</p>
-							<h4> zirsha@projectz.io</h4>
+							<h4> info@projectz.io</h4>
 						</div>
 					</div>					
 					<div class="contact-info-box">
@@ -283,7 +293,7 @@
 						</div>
 						<div class="contact-info-content">
 							<p>Office Hours</p>
-							<h4>8.00 AM to 5.00 PM</h4>
+							<h4>10.00 AM to 6.00 PM</h4>
 						</div>
 					</div>
 				</div>
@@ -304,8 +314,8 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-12">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.325396876019!2d90.36098897592879!3d23.80702538659894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c105f81691d5%3A0x4aa9bd97de918f7b!2sSher-E-Bangla%20National%20Cricket%20Stadium!5e0!3m2!1sen!2sbd!4v1715077171980!5m2!1sen!2sbd"></iframe>
-			</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.325396876019!2d74.3914207!3d31.5760814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzE5XzU1LjEwMTQwIlQyLjc0MTc4MTYzMDEzNw!5e0!3m2!1sen!2sbd!4v1715077171980" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
 		</div>
 	</div>
 </div>
@@ -396,17 +406,18 @@
 		  <div class="col-lg-12">
 			<div class="single-brand-box">
 			  <div class="brand-thumb">
-				<img src="assets/images/home-2/spinstatz_logo.png" alt=""  height="40px" width="25%"/>
+				<img src="assets/images/home-2/spinstatz_logo.png" alt=""  height="35px" width="25%"/>
 			  </div>
 			</div>
 		  </div>
 		  <div class="col-lg-12">
 			<div class="single-brand-box">
 			  <div class="brand-thumb">
-				<img src="assets/images/home-2/wrightbalancelogo.png" alt=""  height="40px" width="25%"/>
+				<img src="assets/images/home-2/wrightbalancelogo.png" alt=""  height="35px" width="25%"/>
 			  </div>
 			</div>
 		  </div>
+
 		  <div class="col-lg-12">
 			<div class="single-brand-box">
 			  <div class="brand-thumb">
@@ -435,6 +446,21 @@
 			  </div>
 			</div>
 		  </div>
+		  <div class="col-lg-12">
+			<div class="single-brand-box">
+			  <div class="brand-thumb">
+				<img src="assets/images/home-2/App Icon.png" alt=""  height="60px" width="100%"/>
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-lg-12">
+			<div class="single-brand-box">
+			  <div class="brand-thumb">
+				<img src="assets/images/home-2/esg_appp.png" alt=""  height="60px" width="100%"/>
+			  </div>
+			</div>
+		  </div>
+
 		</div>
 	  </div>
 	</div>
@@ -472,11 +498,11 @@
 					<div class="footer-widget-menu">
 						<ul>
 							<li><a href="about-1.html"><i class="bi bi-arrow-right-circle"></i>About</a></li>
-							<li><a href="team-details.html"><i class="bi bi-arrow-right-circle"></i>Meet Our CEO</a></li>
+							<li><a href="ceo.html"><i class="bi bi-arrow-right-circle"></i>Meet Our CEO</a></li>
 							<li><a href="service.html"><i class="bi bi-arrow-right-circle"></i>Our Services</a></li>
 							<li><a href="service-details.html"><i class="bi bi-arrow-right-circle"></i>Service Details</a></li>
 							<!-- <li><a href="project.html"><i class="bi bi-arrow-right-circle"></i>Our Project</a></li> -->
-							<li><a href="project-details.html"><i class="bi bi-arrow-right-circle"></i>Our Project</a></li>
+							<li><a href="project-details.html"><i class="bi bi-arrow-right-circle"></i>Our Projects</a></li>
 							<li><a href="careers.html"><i class="bi bi-arrow-right-circle"></i>Careers</a></li>
 							<li><a href="contact.html"><i class="bi bi-arrow-right-circle"></i>Contact</a></li>
 						</ul>
@@ -492,12 +518,12 @@
 						<ul>
 							<li><a href="service-details.html"><i class="bi bi-arrow-right-circle"></i>Custom Software</a></li>
 							<li><a href="service-details.html"><i class="bi bi-arrow-right-circle"></i>
-								Web development</a></li>
-							<li><a href="service-details.html"><i class="bi bi-arrow-right-circle"></i>Mobile development</a></li>
+								Web Development</a></li>
+							<li><a href="service-details.html"><i class="bi bi-arrow-right-circle"></i>Mobile Development</a></li>
 							<li><a href="service-details.html"><i class="bi bi-arrow-right-circle"></i>
-								 UI/UX design services</a></li>
+								 UI/UX Design Service</a></li>
 							<!-- <li><a href="#"><i class="bi bi-arrow-right-circle"></i>Data Analytics</a></li> -->
-							<li><a href="service-details.html"><i class="bi bi-arrow-right-circle"></i>Managed IT Services</a></li>
+							<li><a href="service-details.html"><i class="bi bi-arrow-right-circle"></i>Managed IT Service</a></li>
 							<li><a href="service-details.html"><i class="bi bi-arrow-right-circle"></i>Machine Learning</a></li>
 							<li><a href="service-details.html"><i class="bi bi-arrow-right-circle"></i>Salesforce</a></li>
 						</ul>
@@ -587,5 +613,13 @@
 	<script src="assets/js/coustom-carousel.js"></script>
 	<script src="assets/js/scroll-up.js"></script>
 
+
+	<script>
+		document.ready(function(){
+			document.getElementById('myForm').reset();
+		})
+	</script>
 </body>
 </html>
+
+
