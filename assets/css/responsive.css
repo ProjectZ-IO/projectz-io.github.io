@@ -4568,13 +4568,20 @@ p.blog-details-desc {
 
 /*service-details*/
 h4.services-details-title {
-    font-size: 19px;
+    font-size: 25px;
 }
+
+h2.services-details-desc_our {
+    font-size: 28px !important;
+}
+
+
 
 p.services-details-desc {
     font-size: 15px;
     margin-top: 24px;
 }
+
 
 .services-details-text {
     display: block;
