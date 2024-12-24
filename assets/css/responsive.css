@@ -3959,7 +3959,7 @@ p.blog-details-desc {
 }
 
 .faq-singular .faq-question {
-    padding: 16px 1px 15px 8px;
+    /* padding: 16px 1px 15px 8px; */
     font-size: 14px;
 }
 
