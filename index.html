@@ -988,14 +988,15 @@
 									<textarea id="message" name="message" placeholder="Write Message" required></textarea>
 								</div>
 							</div>
+							<!-- <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script> -->
 							<div class="col-lg-12">
 								<div class="single-input-box">
-									<input type="hidden" name="_captcha" value="false">
+									<!-- <input type="hidden" name="_captcha" value="false"> -->
 									
 									<input type="hidden" name="_next" value="https://www.projectz.io/welcome.html">
 									<!-- <input type="hidden" name="_next" value="http://127.0.0.1:5501/welcome.html"> -->
 									<input type="hidden" name="_subject" value="Projectz.io!">
-									<button type="submit">Free Consultancy</button>
+									<button type="submit" >Free Consultancy</button>
 								</div>
 							</div>
 						</div>
@@ -1866,72 +1867,12 @@
 	<script src="assets/js/scroll-up.js"></script>
 
 	
-	<!-- <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script> -->
-
-	<!-- <script type="text/javascript">
-		// Initialize EmailJS with your User ID
-		emailjs.init("zarban khan");  // Replace with your actual User ID
-	
-		// Attach the submit event to the form
-		document.getElementById('contact-form').addEventListener('submit', function(event) {
-			event.preventDefault(); // Prevent the form from refreshing the page
-	
-			// Get the form values
-			const name = document.getElementById('name').value;
-			const phone = document.getElementById('phone').value;
-			const email = document.getElementById('email').value;
-			const message = document.getElementById('message').value;
-	
-			// Send the data using EmailJS
-			emailjs.send("gmail", "template_xyz", {  // Replace with your Service ID and Template ID
-				name: name,
-				phone: phone,
-				email: email,
-				message: message
-			})
-			.then(function(response) {
-				console.log("Success:", response);
-				alert('Your message has been sent successfully!');
-			}, function(error) {
-				console.error("Error:", error);
-				alert('Something went wrong. Please try again later.');
-			});
-		});
-	</script> -->
-	<!-- <script>
-		function submitForm(event) {
-			console.log("RUN")
-			event.preventDefault();  // Prevent default form submission
-		
-			// Create a FormData object to capture form data
-			const formData = new FormData(document.getElementById("contactForm"));
-			for (let [key, value] of formData.entries()) {
-        console.log(key, value);
-    }
-			// Use fetch to submit the form data
-			fetch("https://formsubmit.co/bahibahi420bacha@gmail.com", {
-				method: "POST",
-				body: formData
-			})
-			
-			.then(response => response.json())  // Assuming a JSON response from formsubmit.co
-			.then(data => {
-				// Handle the response here (e.g., show success message)
-				alert("Form submitted successfully!");
-			})
-			.catch(error => {
-				// Handle errors here
-				alert("An error occurred. Please try again.");
-			});
+	<script src="https://www.google.com/recaptcha/api.js"></script>
+	<script>
+		function onSubmit(token) {
+		  document.getElementById("demo-form").submit();
 		}
-		</script> -->
-
-
-		<!-- <script>
-			document.ready(function(){
-				document.getElementById('myForm').reset();
-			})
-		</script> -->
+	  </script>
 	
 </body>
 </html>
