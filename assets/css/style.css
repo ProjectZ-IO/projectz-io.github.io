@@ -51,7 +51,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
    <!--Toptech Header Area Css Style One-->
 =========================================================---*/
 .header-area {
-    margin-bottom: -106px;
+    background: #041424 !important;
 }
 
 .header-menu {
@@ -218,6 +218,19 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     /* filter: hue-rotate(180deg) saturate(150%) brightness(80%); */
 }
 
+.style-oneee.hero-area {
+    background: url(../images/home-1/case-study-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 510px;
+    background-size: 100% 100%;
+    filter: hue-rotate(221deg) saturate(150%) brightness(80%) !important;
+    /* filter: hue-rotate(221deg) saturate(150%) brightness(80%); */
+}
+    /* filter: hue-rotate(180deg) saturate(150%) brightness(80%); */
+
+
 
 .style-one .hero-content h4 {
     font-size: 25px;
@@ -286,7 +299,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 
 .style-one.feature-area .row.margin-top {
-    margin-top: -91px;
+    margin-top: -42px;
 }
 
 .style-one .flip-box {
@@ -296,6 +309,12 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     perspective: 1000px;
 }
 
+.style-one_new .flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 205px;
+    perspective: 1000px;
+}
 .style-one .flip-box-inner {
     position: relative;
     width: 100%;
@@ -578,6 +597,30 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     padding: 111px 0 102px;
     position: relative;
     z-index: 1;
+}
+
+
+.set_bg_h{
+    background: url(../images/home-1/pk_bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 111px 0 102px;
+    position: relative;
+    z-index: 1;
+}
+
+.set_bg_h::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    /* background: #0E1E2A; */
+    background: #000000;
+    opacity: 0.9;
+    z-index: -1;
 }
 
 .style-one.service-area:before {
@@ -971,6 +1014,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     color: #0c5adb;
     padding: 5px 0;
     border-radius: 10px 10px 0 0;
+  
 }
 
 .style-one .portfolio-title {
