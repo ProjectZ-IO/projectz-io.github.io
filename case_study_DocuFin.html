@@ -276,7 +276,7 @@
         .case-nav {
             background: #0c5adb; /* Dark Background */
             color: #fff;
-            padding: 20px 0;
+            padding: 35px 0;
         }
 
         .case-nav a {
@@ -343,6 +343,72 @@ padding: 18px;
  }
 
         }
+          @media (min-width: 768px) and (max-width: 1024px) {
+            .meanmenu-reveal{
+              margin-top: 4px !important;
+            }
+            }
+         @media (min-width: 370px) and (max-width: 450px) {
+          .circle-btn{
+             width: 34px;
+             height: 34px;
+             position: relative;
+             right:4px;
+          }
+          .my-snap{
+            position: relative;
+            left:4px;
+          }
+          .meanmenu-reveal{
+            margin-top: 3px !important;
+          }
+        }
+          @media (min-width: 370px) and (max-width: 375px) {
+    .challenge-container img {
+        max-width: 352px !important;
+    }
+    .set_img_top {
+        max-width: 353px !important;
+    }
+}
+
+@media (min-width: 410px) and (max-width: 415px) {
+    .challenge-container img {
+        max-width: 392px !important;
+    }
+    .set_img_top {
+        max-width: 392px !important;
+    }
+}
+@media (min-width: 380px) and (max-width: 390px) {
+    .challenge-container img {
+        max-width: 368px !important;
+    }
+    .set_img_top {
+        max-width: 368px !important;
+    }
+}
+@media (min-width: 420px) and (max-width: 430px) {
+    .challenge-container img {
+        max-width: 408px !important;
+    }
+    .set_img_top {
+        max-width: 410px !important;
+    }
+}
+@media (min-width: 350px) and (max-width: 360px) {
+    .challenge-container img {
+        max-width: 338px !important;
+        position: relative;
+        right:2px !important;
+    }
+    .set_img_top {
+        max-width: 340px !important;
+    }
+}
+
+
+        
 
         .solution-card {
             border-radius: 10px;
@@ -387,7 +453,7 @@ padding: 18px;
             font-size: 2.5rem;
             font-weight: bold;
             margin-bottom: 20px;
-        }
+        }http://192.168.10.86:8000/AI%E2%80%91Powered-App.html
         .solution-card {
             background: white;
             border-radius: 10px;
@@ -514,9 +580,9 @@ padding: 18px;
                            	   <li><a href="blog-details.html">Blog Details </a></li>
                            </ul> -->
 						</li>
-            <li class="menu-item-has-children">
-							<a href="blog-grid.html">Blog</a>
-						  </li>
+            <!-- <li class="menu-item-has-children">
+							<a href=".html">Blog</a>
+						  </li> -->
 					
 						<!-- <li><a href="pricing.html">Pricing</a></li> -->
 						<li><a href="contact.html">Contact</a></li>
@@ -654,7 +720,7 @@ padding: 18px;
         <div class="row challenge-container align-items-center">
             <div class="col-md-5 text-center">
                 <!-- <img src="your-image.jpg" alt="Challenge Image" class="challenge-image"> -->
-                <img src="assets/images/home-1/changle.jpg" style=" max-width: 450px; border-radius: 15px; ">
+                <img src="assets/images/home-1/changle.jpg" style=" max-width: 420px; border-radius: 15px; ">
             </div>
       
             <div class="col-md-7 challenge-content">
@@ -824,7 +890,7 @@ padding: 18px;
       
 
       <div class="col-lg-5 d-flex justify-content-center align-items-center">
-        <img src="assets/images/home-1/out_c.jpg" class="set_img_top" style=" max-width: 450px; border-radius: 15px; ">
+        <img src="assets/images/home-1/out_c.jpg" class="set_img_top" style=" max-width: 420px; border-radius: 15px; ">
       </div>
   </div>
 </div>
@@ -911,11 +977,11 @@ padding: 18px;
 <section class="outcomes-section mt-5" >
   <div class="container mt-5">
       <div class="row align-items-center">
-          <div class="col-md-5 order-2 order-lg-1 mb-4 mb-lg-0 outcomes-img">
+          <div class="col-md-5 order-2 order-lg-1 mb-4 mb-lg-0 outcomes-img mt-4">
               <img src="assets/images/home-1/out_come_b.jpg" alt="Illustration" class="set_img_top">
           </div>
           <div class="col-md-7  order-1 order-lg-2">
-              <div class="outcomes-card bg-white shadow" style="position: relative; right: 100px">
+              <div class="outcomes-card bg-white shadow" style="position: relative; right: 100px; bottom:70px;">
                   <h2 class="text-primary fw-bold mb-3 ms-1"> The Outcome</h2>
                   <ul class="ms-1">
                   
@@ -958,29 +1024,42 @@ padding: 18px;
 <div class="container-fluid case-nav mt-5">
   <div class="row">
       <!-- Previous Case Study -->
-      <div class="col-md-6 text-start">
+      <!-- <div class="col-md-6 text-start">
           <a  class="nav-btn">
               <div class="circle-btn" onclick="window.location.href='case_study_homyze.html'" style="cursor: pointer;">
                   <i class="fas fa-arrow-left" ></i>
               </div>
               <div>
+                
                   <h5 class="mb-0 text-white">Homyze  Case Study </h5>
                   <small>Previous</small>
               </div>
           </a>
-      </div>
+      </div> -->
+     <div class="col-md-6 d-flex align-items-center justify-content-center mt-2" style="gap: 10px;">
+      
+    <div class="circle-btn" onclick="window.location.href='case_study_homyze.html'" style="cursor: pointer;">
+        <i class="fas fa-arrow-left"></i>
+    </div>
+    <div>
+        <h5 class="mb-0 text-white">Homyze Case Study</h5>
+        <small>Previous</small>
+    </div>
+      
+</div>
+
 
       <!-- Next Case Study -->
-      <div class="col-md-6 text-end">
-          <a  class="nav-btn justify-content-center">
+      <div class="col-md-6 d-flex align-items-center justify-content-center mt-2" style="gap: 10px;">
+          <!-- <a  class="nav-btn justify-content-center"> -->
               <div>
                   <h5 class="mb-0 text-white">Snap2Size Case Study</h5>
                   <small>Next</small>
               </div>
-              <div class="circle-btn"  onclick="window.location.href='case_study_Snap2Size.html'" style="cursor: pointer;">
+              <div class="circle-btn my-snap"  onclick="window.location.href='case_study_Snap2Size.html'" style="cursor: pointer;">
                 <i class="fas fa-arrow-right"></i>
               </div>
-          </a>
+          <!-- </a> -->
       </div>
   </div>
 </div>
@@ -1136,6 +1215,9 @@ padding: 18px;
                    	   <li><a href="blog-2column.html">Blog 2column</a></li>
                    	   <li><a href="blog-details.html">Blog Details </a></li>
                    </ul> -->
+				</li> 
+            <li class="menu-item-has-children"><a href="blog-grid.html">Blog</a> 
+                 
 				</li> 
 				<!-- <li><a href="pricing.html">Pricing</a></li> -->
 				<li><a href="contact.html">Contact</a></li>

@@ -81,9 +81,8 @@
         <!-- responsive CSS -->
         <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all">
         <!-- Coustom Animation CSS -->
-        <link rel="stylesheet" href="assets/css/coustom-animation.css" type="text/css" media="all">
-        <!-- modernizr js -->
-        <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+        <link rel="stylesheet" href="assets/css/coustom-anim<div class="brand-area style-two " style="margin-top: 200px;">
+	
     </head>
 
     <style>
@@ -339,8 +338,28 @@ padding: 18px;
  }
 
         }
+           @media (min-width: 768px) and (max-width: 1024px) {
+            .meanmenu-reveal{
+          position: relative;
+          top:3px !important;
+        }
 
-      
+      }
+
+      @media (min-width: 350px) and (max-width: 479px) {
+        .meanmenu-reveal{
+          position: relative;
+          top:3px !important;
+        }
+        .circle-btn{
+          width: 34px;
+          height: 34px;
+          position: relative;
+          right: -2px;
+          bottom: 3px;
+        }
+       
+        } 
     </style>
 <body>
 
@@ -708,7 +727,7 @@ padding: 18px;
 
         <!-- Image Section (Right Side) -->
         <div class="col-lg-5 d-flex justify-content-center align-items-center">
-            <img src="assets/images/home-1/homezyee.jpg" alt="Solution" class="solution-image" style="width:100%; border-radius: 15px;">
+            <img src="assets/images/home-1/homezyee.jpg" alt="Solution" class="solution-image" style="width:105%; border-radius: 15px;">
         </div>
     </div>
 </div>
@@ -716,7 +735,7 @@ padding: 18px;
 
 
 <!-- outcome ----------------------------------------------------->
-<div class="container" style="margin-top: 100px;">
+<div class="container">
   <div class="row outcome-section align-items-center">
     <!-- Image Section -->
     <div class="col-lg-5 order-2 order-lg-1 mb-4 mb-lg-0">
@@ -727,7 +746,7 @@ padding: 18px;
 
     <!-- Text Content -->
     <div class="col-lg-7 order-1 order-lg-2">
-        <div class="outcome-content">
+        <div class="outcome-content" style="margin-top: -30px;">
             <div class="row solution-section">
                 <div class="solution-content">
                     <h2 class="services-details-title mb-3" style="color: #0c5adb;">The Outcome</h2>
@@ -778,7 +797,7 @@ padding: 18px;
 <div class="container-fluid case-nav mt-5">
   <div class="row">
       <!-- Previous Case Study -->
-      <div class="col-md-6 text-start">
+      <!-- <div class="col-md-6 text-start">
           <a  class="nav-btn">
               <div class="circle-btn"  onclick="window.location.href='case_study_Snap2Size.html'" style="cursor: pointer;">
                   <i class="fas fa-arrow-left"></i>
@@ -788,10 +807,21 @@ padding: 18px;
                   <small>Previous</small>
               </div>
           </a>
-      </div>
+      </div> -->
+      <div class="col-md-6 d-flex align-items-center justify-content-center mt-2" style="gap: 10px;">
+      
+    <div class="circle-btn" onclick="window.location.href='case_study_Snap2Size.html'" style="cursor: pointer;">
+        <i class="fas fa-arrow-left"></i>
+    </div>
+    <div>
+        <h5 class="mb-0 text-white">Snap2Size Case Study</h5>
+        <small>Previous</small>
+    </div>
+      
+</div>
 
       <!-- Next Case Study -->
-      <div class="col-md-6 text-end">
+      <!-- <div class="col-md-6 text-end">
           <a  class="nav-btn justify-content-center">
               <div>
                   <h5 class="mb-0 text-white"> DocuFin Extract Case Study</h5>
@@ -803,6 +833,17 @@ padding: 18px;
                 
               </div>
           </a>
+      </div> -->
+      <div class="col-md-6 d-flex align-items-center justify-content-center mt-2" style="gap: 10px;">
+          <!-- <a  class="nav-btn justify-content-center"> -->
+              <div>
+                  <h5 class="mb-0 text-white"> DocuFin Extract Case Study</h5>
+                  <small>Next</small>
+              </div>
+              <div class="circle-btn my-snap"  onclick="window.location.href='case_study_DocuFin.html'" style="cursor: pointer;">
+                <i class="fas fa-arrow-right"></i>
+              </div>
+          <!-- </a> -->
       </div>
   </div>
 </div>
@@ -943,6 +984,11 @@ padding: 18px;
                    	   <li><a href="blog-details.html">Blog Details </a></li>
                    </ul> -->
 				</li> 
+
+           <li class="menu-item-has-children"><a href="blog-grid.html">Blog</a> 
+               
+				</li> 
+
 				<!-- <li><a href="pricing.html">Pricing</a></li> -->
 				<li><a href="contact.html">Contact</a></li>
 			</ul>

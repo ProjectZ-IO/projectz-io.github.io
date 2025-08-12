@@ -509,6 +509,27 @@ padding: 18px;
   list-style-type: disc; /* Optional: disc, circle, square */
 }
 
+@media (min-width: 350px) and (max-width: 479px) {
+  .meanmenu-reveal{
+          position: relative;
+          top:3px !important;
+        }
+        .circle-btn{
+          width: 34px;
+          height: 34px;
+          position: relative;
+          right: -2px;
+          bottom: 3px;
+        }
+        } 
+      @media (min-width: 768px) and (max-width: 1024px) {
+            .meanmenu-reveal{
+          position: relative;
+          top:4px !important;
+        }
+
+      }
+
     </style>
  
 <body>
@@ -1097,7 +1118,7 @@ padding: 18px;
 <div class="container-fluid case-nav" style="margin-top: 100px;">
   <div class="row">
       <!-- Previous Case Study -->
-      <div class="col-md-6 text-start">
+      <!-- <div class="col-md-6 text-start">
           <a class="nav-btn" >
               <div class="circle-btn" onclick="window.location.href='case_study_DocuFin.html'" style="cursor: pointer;">
                   <i class="fas fa-arrow-left"></i>
@@ -1107,10 +1128,21 @@ padding: 18px;
                   <small>Previous</small>
               </div>
           </a>
-      </div>
+      </div> -->
+      <div class="col-md-6 d-flex align-items-center justify-content-center mt-2" style="gap: 10px;">
+      
+    <div class="circle-btn" onclick="window.location.href='case_study_DocuFin.html'" style="cursor: pointer;">
+        <i class="fas fa-arrow-left"></i>
+    </div>
+    <div>
+        <h5 class="mb-0 text-white"> DocuFin Extract Case Study</h5>
+        <small>Previous</small>
+    </div>
+      
+</div>
 
       <!-- Next Case Study -->
-      <div class="col-md-6 text-end">
+      <!-- <div class="col-md-6 text-end">
           <a class="nav-btn justify-content-center">
               <div>
                   <h5 class="mb-0 text-white"> SwallowScan Case Study</h5>
@@ -1121,6 +1153,17 @@ padding: 18px;
 
               </div>
           </a>
+      </div> -->
+      <div class="col-md-6 d-flex align-items-center justify-content-center mt-2" style="gap: 10px;">
+          <!-- <a  class="nav-btn justify-content-center"> -->
+              <div>
+                  <h5 class="mb-0 text-white"> SwallowScan Case Study</h5>
+                  <small>Next</small>
+              </div>
+              <div class="circle-btn my-snap"  onclick="window.location.href='case_study_SwallowScan.html'" style="cursor: pointer;">
+                <i class="fas fa-arrow-right"></i>
+              </div>
+          <!-- </a> -->
       </div>
   </div>
 </div>
@@ -1270,12 +1313,10 @@ padding: 18px;
 				</li>
 				<!-- header page -->
 			     <li class="menu-item-has-children"><a href="careers.html">Careers</a> 
-                   <!-- <ul class="sub-menu">
-                   	   <li><a href="blog-grid.html">Blog Grid</a></li>
-                   	   <li><a href="blog-list.html">Blog List</a></li>
-                   	   <li><a href="blog-2column.html">Blog 2column</a></li>
-                   	   <li><a href="blog-details.html">Blog Details </a></li>
-                   </ul> -->
+                
+				</li> 
+           <li class="menu-item-has-children"><a href="blog-grid.html">Blog</a> 
+                
 				</li> 
 				<!-- <li><a href="pricing.html">Pricing</a></li> -->
 				<li><a href="contact.html">Contact</a></li>

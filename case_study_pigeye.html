@@ -446,7 +446,26 @@ padding: 18px;
     border-radius: 1rem;
   }
 }
+@media (min-width: 350px) and (max-width: 479px) {
+  .meanmenu-reveal{
+          position: relative;
+          top:3px !important;
+        }
+        .circle-btn{
+          width: 34px;
+          height: 34px;
+          position: relative;
+          right: -2px;
+          bottom: 3px;
+        }
+        } 
+      @media (min-width: 768px) and (max-width: 1024px) {
+            .meanmenu-reveal{
+          position: relative;
+          top:4px !important;
+        }
 
+      }
     </style>
 <body>
 
@@ -1113,7 +1132,7 @@ even without live feeds or sensors.</p>
 <div class="container-fluid case-nav mt-5">
   <div class="row">
       <!-- Previous Case Study -->
-      <div class="col-md-6 text-start">
+      <!-- <div class="col-md-6 text-start">
           <a  class="nav-btn">
               <div class="circle-btn"  onclick="window.location.href='case_study_SwallowScan.html'" style="cursor: pointer;">
                   <i class="fas fa-arrow-left"></i>
@@ -1123,10 +1142,21 @@ even without live feeds or sensors.</p>
                   <small>Previous</small>
               </div>
           </a>
-      </div>
+      </div> -->
+       <div class="col-md-6 d-flex align-items-center justify-content-center mt-2" style="gap: 10px;">
+      
+    <div class="circle-btn" onclick="window.location.href='case_study_SwallowScan.html'" style="cursor: pointer;">
+        <i class="fas fa-arrow-left"></i>
+    </div>
+    <div>
+        <h5 class="mb-0 text-white">SwallowScan Case Study</h5>
+        <small>Previous</small>
+    </div>
+      
+</div>
 
       <!-- Next Case Study -->
-      <div class="col-md-6 text-end">
+      <!-- <div class="col-md-6 text-end">
           <a  class="nav-btn justify-content-center">
               <div>
                   <h5 class="mb-0 text-white"> Homyze Case Study</h5>
@@ -1138,6 +1168,17 @@ even without live feeds or sensors.</p>
                 
               </div>
           </a>
+      </div> -->
+            <div class="col-md-6 d-flex align-items-center justify-content-center mt-2" style="gap: 10px;">
+          <!-- <a  class="nav-btn justify-content-center"> -->
+              <div>
+                  <h5 class="mb-0 text-white"> Homyze Case Study</h5>
+                  <small>Next</small>
+              </div>
+              <div class="circle-btn my-snap"  onclick="window.location.href='case_study_homyze.html'" style="cursor: pointer;">
+                <i class="fas fa-arrow-right"></i>
+              </div>
+          <!-- </a> -->
       </div>
   </div>
 </div>
@@ -1269,12 +1310,10 @@ even without live feeds or sensors.</p>
 				</li>
 				<!-- header page -->
 			     <li class="menu-item-has-children"><a href="careers.html">Careers</a> 
-                   <!-- <ul class="sub-menu">
-                   	   <li><a href="blog-grid.html">Blog Grid</a></li>
-                   	   <li><a href="blog-list.html">Blog List</a></li>
-                   	   <li><a href="blog-2column.html">Blog 2column</a></li>
-                   	   <li><a href="blog-details.html">Blog Details </a></li>
-                   </ul> -->
+                 
+				</li> 
+          <li class="menu-item-has-children"><a href="blog-grid.html">Blog</a> 
+                 
 				</li> 
 				<!-- <li><a href="pricing.html">Pricing</a></li> -->
 				<li><a href="contact.html">Contact</a></li>
