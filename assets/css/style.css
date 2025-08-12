@@ -61,7 +61,10 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 .header-menu ul {
     display: inline-block;
 }
-
+/* .meanmenu-reveal{
+    position: relative !important;
+    top:12px !important;
+} */
 .header-menu ul li {
     display: inline-block;
     margin-right: 35px;
@@ -5973,6 +5976,8 @@ button.icons {
 
 .blog-grid-area .blog-thumb img {
     width: 100%;
+    /* height: 26vh !important; */
+    /* object-fit: contain !important; */
 }
 
 .blog-grid-area .blog-content {
