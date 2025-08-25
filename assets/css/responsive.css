@@ -3,7 +3,12 @@
     margin-top: 16px !important; /* jitna niche karna ho utna value badha lo */
   }
 }
-
+  @media (min-width: 320px) and (max-width: 479px) {
+     
+      .post-meta{
+    white-space:nowrap !important;
+      }
+      }
 
 
 @media (min-width: 1600px) and (max-width: 1800px) {
