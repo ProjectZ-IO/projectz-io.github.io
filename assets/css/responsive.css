@@ -39,6 +39,10 @@
     margin-right: 10px;
 }
 
+.set_p{
+    padding: 21px !important;
+}
+
     .style-two.toptech-button a {
     padding: 12px 27px 12px 27px;
     font-family: 'Rajdhani';
@@ -60,14 +64,7 @@
 
 }
 @media (min-width: 350px) and (max-width: 360px) {
-.post-meta {
-        white-space: nowrap !important;
-         font-size: 0.9rem;
-        color: #666;
-        display: flex;
-       gap: 0.2rem;
-       align-items: center;
-    }
+
 
     .inner-style.section-title.left strong{
       font-size: 21px;
