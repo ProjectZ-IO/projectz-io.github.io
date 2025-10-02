@@ -251,6 +251,14 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     text-transform: uppercase;
 }
 
+.style-one .hero-content h3 {
+    font-size: 74px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 66px;
+    text-transform: uppercase;
+}
+
 .style-one .hero-content p {
     width: 48%;
     color: #fff;
@@ -261,6 +269,17 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 
 .style-one.hero-button{
     margin-top: 49px;
+}
+
+.section-title h5{
+    font-size: 18px;
+    color: #fff;
+}
+
+.style-one.section-title h3{
+    font-size: 48px;
+   margin: 8px 0 0;
+   line-height: 1;
 }
 
 .style-one .hero-button.style-one a {
@@ -519,10 +538,12 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     border-radius: 100%;
 }
 
-.style-one.section-title h1 {
-    font-size: 48px;
-    margin: 8px 0 0;
-    line-height: 1;
+.section-title h2{
+    font-size: 50px;
+}
+
+.section-title h3{
+    font-size: 50px;
 }
 
 .style-one.section-title span{
@@ -550,7 +571,10 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     font-size: 17px;
     margin-top: 8px;
     transition: 0.5s;
+    margin-right: 10px;
 }
+
+
 
 .style-one.toptech-button a:hover{
     color:#0c5adb;
@@ -640,6 +664,16 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 
 .service-area .style-one.section-title h1 {
     color: #fff;
+}
+
+.service-area .style-one.section-title h3 {
+    color: #fff;
+}
+
+.style-one.section-title h2{
+    font-size: 48px;
+    margin: 8px 0 0;
+    line-height: 1;
 }
 
 .style-one.service-area .flip-box-inner {
@@ -1415,6 +1449,8 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 
 
+
+
 /*---=====================================================
    <!--Toptech Footer Area Css Style One-->
 =========================================================---*/
@@ -2084,6 +2120,12 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 
 .style-two.section-title h1 {
+    font-size: 42px;
+    color: #041424;
+    font-weight: 700;
+    line-height: 40px;
+}
+.style-two.section-title h2 {
     font-size: 42px;
     color: #041424;
     font-weight: 700;
@@ -4351,13 +4393,65 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     color: #0c5adb;
     font-weight: 600;
     margin: 0 0 17px;
+    
+}
+
+.inner-style.section-title.left h3 {
+    font-size: 18px !important;
+    color: #0c5adb !important;
+    font-weight: 600 !important;
+    margin: 0 0 14px;
+    font-family: "Rajdhani", sans-serif;
+    
 }
 
 .inner-style.section-title.left h1 {
     font-size: 42px;
     font-weight: 700;
+      line-height: 52px;
+
+}
+
+.inner-style.section-title.left h4 {
+    font-size: 42px !important;
+    font-weight: 700;
+      line-height: 52px;
+      color: #fff;
+
+}
+
+.inner-style.section-title.left strong {
+    font-size: 42px;
+    font-weight: 700;
+   line-height: 55px;
+}
+
+
+
+
+.inner-style.section-title.left h5 {
+    font-size: 42px;
+    font-weight: 700;
     line-height: 40px;
 }
+
+.inner-style.section-title.left h3 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #fff;
+   
+}
+
+.inner-style.section-title.left h2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #fff;
+   
+}
+
+
 
 .inner-style.section-title.left p.section-desc {
     margin: 0;
@@ -4373,6 +4467,12 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     color: #0c5adb;
     font-weight: 600;
     margin: 0 0 17px;
+}
+
+.inner-style.section-title.center h2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 40px;
 }
 
 .inner-style.section-title.center h1 {
@@ -5447,10 +5547,24 @@ p.services-details-desc {
     position: relative;
     z-index: 1;
     transition: 0.5s;
+    display: flex;
+    align-items: center;
+    gap:10px;
+  
 }
+
+
+.widget-category ul li a i {
+  margin-left: auto;
+  padding-right: 4px; /* optional spacing */
+}
+
+
 
 .widget-category ul li a:hover{
     color:#fff;
+    
+   
 }
 
 .widget-category ul li a:before{
@@ -6926,7 +7040,15 @@ span.flaticon-multiply i {
 }
 
 
-
+.progress-circle path {
+  stroke: #4caf50;
+  stroke-width: 2;
+  fill: none;
+  stroke-linecap: round;
+  stroke-dasharray: 307.919;
+  stroke-dashoffset: 307.919; /* start empty */
+  transition: stroke-dashoffset 1s ease;
+}
 
 
 
@@ -6954,6 +7076,8 @@ span.flaticon-multiply i {
   visibility: visible;
   transform: translateY(0) !important;
 }
+
+
 
 .prgoress_indicator::after {
     position: absolute;

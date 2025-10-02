@@ -33,7 +33,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+strong {
     color: #041424;
     font-family: "Rajdhani", sans-serif;
     font-style: normal;
