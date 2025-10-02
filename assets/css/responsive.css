@@ -1,7 +1,7 @@
 @media (min-width: 760px) and (max-width: 820px) {
     .cards {
         margin-top: 16px !important;
-        /* jitna niche karna ho utna value badha lo */
+        
     }
 }
 
@@ -11,6 +11,13 @@
     .post-meta {
         white-space: nowrap !important;
          
+    }
+
+     .inner-style.section-title.left strong{
+      font-size: 21px;
+      color:#041424;
+      line-height: 29px !important;
+      font-family: "Rajdhani", sans-serif;
     }
 
     .style-one.toptech-button a {
