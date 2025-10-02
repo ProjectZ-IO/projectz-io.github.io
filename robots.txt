@@ -1,0 +1,13 @@
+# Allow all crawlers to access everything
+User-agent: *
+Allow: /
+
+# Block unnecessary or sensitive files/folders
+Disallow: /assets/
+Disallow: /backup.html
+Disallow: /scrolling.txt
+Disallow: /final_contact_us_page.txt
+Disallow: /workspace.code-workspace
+
+# Sitemap link (replace with your domain)
+Sitemap: https://yourdomain.com/sitemap.xml
