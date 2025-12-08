@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <!-- <title>Projectz.io</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+  <!-- add seo tags----------------------------------------------------------------------------------->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ProjectZ - AI Automation Services for Modern Businesses</title>
+  <meta name="description" content="Discover smart AI solutions with ProjectZ. Automate
+   your business processes, improve team productivity, and scale faster." />
+  <meta name="keywords" content="AI Automation, Business Automation, ProjectZ, AI
+   Solutions" />
+  <!-- Canonical Tag -->
+  <link rel="canonical" href="https://www.projectz.io/" />
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <!-- OpenGraph for Social Media Sharing -->
+  <meta property="og:title" content="ProjectZ - AI Automation Services" />
+  <meta property="og:description" content="Scale your business with smart AI tools." />
+  <meta property="og:image" content="https://www.projectz.io/images/og-image.jpg" />
+  <meta property="og:url" content="https://www.projectz.io" />
+  <meta property="og:type" content="website" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ProjectZ - AI Automation Services" />
+  <meta name="twitter:description" content="Discover smart AI solutions with ProjectZ." />
+  <meta name="twitter:image" content="https://www.projectz.io/images/og-image.jpg" />
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "ProjectZ",
+        "url": "https://www.projectz.io",
+        "logo": "https://www.projectz.io/logo.png",
+        "sameAs": [
+          "https://www.facebook.com/projectz",
+          "https://www.linkedin.com/company/projectz"
+        ]
+      }
+    </script>
+
+  <!-- end seo tags=============================================================================== -->
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="56x56" href="assets/images/fav-icon/icon.png" />
+  <!-- bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all" />
+  <!-- carousel CSS -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css" media="all" />
+  <!-- animate CSS -->
+  <link rel="stylesheet" href="assets/css/animate.css" type="text/css" media="all" />
+  <!-- animated-text CSS -->
+  <link rel="stylesheet" href="assets/css/animated-text.css" type="text/css" media="all" />
+  <!-- font-awesome CSS -->
+  <link rel="stylesheet" href="assets/css/all.min.css" type="text/css" media="all" />
+  <!-- theme-default CSS -->
+  <link rel="stylesheet" href="assets/css/theme-default.css" type="text/css" media="all" />
+  <!-- meanmenu CSS -->
+  <link rel="stylesheet" href="assets/css/meanmenu.min.css" type="text/css" media="all" />
+  <!-- transitions CSS -->
+  <link rel="stylesheet" href="assets/css/owl.transitions.css" type="text/css" media="all" />
+  <!-- venobox CSS -->
+  <link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="all" />
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="assets/css/bootstrap-icons.css" type="text/css" media="all" />
+  <!-- Main Style CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
+  <!-- responsive CSS -->
+  <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all" />
+  <!-- Coustom Animation CSS -->
+  <link rel="stylesheet" href="assets/css/coustom-animation.css" type="text/css" media="all" />
+  <!-- modernizr js -->
+  <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+
+  <style>
+    .partner {
+      color: #041424;
+      text-align: center;
+    }
+
+    .card {
+      border: none !important;
+      margin-bottom: 15px;
+    }
+
+    .client-card {
+      height: 25vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+      background: #c8d3d3;
+      border-radius: 10px;
+      position: relative;
+    }
+
+    /* All images same size - equal dimensions */
+    .client-card img {
+      max-width: 100%;
+      max-height: 120px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      display: block;
+    }
+
+    /* Remove special anxiety styling - all images same size */
+    .client-card .anxiety {
+      max-width: 100%;
+      max-height: 120px;
+      width: auto;
+      height: auto;
+      padding: 0 !important;
+    }
+
+    /* Mobile screens - 1 card per row */
+    @media (max-width: 767px) {
+      .partner {
+        font-size: 21px;
+        position: relative;
+        top: 13px;
+        font-weight: 700;
+      }
+br{
+  display: none !important;
+}
+      .client-card {
+        padding: 40px 20px;
+        height: auto;
+        min-height: 215px;
+      }
+      .anxiety-card{
+          padding: 15px 20px;
+        height: auto;
+        min-height: 215px;
+      }
+
+      .dt-card{
+         
+        height: 100px;
+      }
+
+      .client-card img {
+        max-height: 100px;
+      }
+    }
+
+    /* Tablet screens - 2 cards per row */
+    @media (min-width: 768px) and (max-width: 991px) {
+      .partner {
+        font-size: 36px;
+        position: relative;
+        top: 31px;
+        font-weight: 700;
+      }
+
+       .anxiety-card{
+          padding: 15px 20px;
+        height: auto;
+        min-height: 215px;
+      }
+
+      .dt-card{
+      
+        height: 100px;
+      }
+
+      .client-card {
+        padding: 50px 30px;
+        height: auto;
+        /* min-height: 180px; */
+        height: 100%;
+        max-height: 212px;
+       
+      }
+
+  
+
+      .client-card img {
+        max-height: 110px;
+      }
+    }
+
+    /* Small desktop screens */
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .partner {
+        font-size: 30px;
+        font-weight: 700;
+      }
+
+      .client-card {
+        padding: 15px;
+        height: 25vh;
+      }
+
+      .client-card img {
+        max-height: 120px;
+      }
+    }
+
+    /* Large desktop screens */
+    @media (min-width: 1200px) {
+      .partner {
+        font-size: 35px;
+        font-weight: 700;
+      }
+
+      .client-card {
+        padding: 15px;
+        height: 25vh;
+      }
+
+      .client-card img {
+        max-height: 120px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- loder -->
+  <div class="loader-wrapper">
+    <span class="loader"></span>
+    <div class="loder-section left-section"></div>
+    <div class="loder-section right-section"></div>
+  </div>
+
+  <!--==================================================-->
+  <!-- Start Toptech Header Area Inner Style-->
+  <!--==================================================-->
+  <div class="header-area inner-style" id="sticky-header">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-3">
+          <div class="header-logo">
+            <a href="Home.html" class=" "><img src="assets/images/Horizontal Logo.png" alt="horizontal logo"
+                height="60px" style="filter: brightness(100)" />
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <div class="header-menu">
+            <ul>
+              <li class="menu-item-has-children">
+                <a href="Home.html">Home</a>
+                <!-- <ul class="sub-menu">
+                    <li><a href="index.html">Home 1</a></li>
+                    <li><a href="index-2.html">Home 2</a></li>
+                    <li><a href="index-3.html">Home 3</a></li>
+                    <li><a href="index-4.html">Home 4</a></li>
+                  </ul> -->
+              </li>
+              <li class="menu-item-has-children">
+                <a href="About.html">About</a>
+                <!-- <ul class="sub-menu">
+                    <li><a href="about-1.html">About Us 1</a></li>
+                    <li><a href="about-2.html">About Us 2</a></li>
+                  </ul> -->
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#">Service<i class="fas fa-chevron-down"></i></a>
+                <ul class="sub-menu">
+                  <li><a href="service.html">Our Services</a></li>
+                  <li><a href="service-details.html">Service Details</a></li>
+                </ul>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="case_study.html">Case Studies</a>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#">Explore<i class="fas fa-chevron-down"></i></a>
+                <ul class="sub-menu">
+                  <!-- <li><a href="choose-us.html">Why Choose Us</a></li> -->
+                  <!-- <li><a href="mission.html">Mission Visson </a></li> -->
+                  <!-- <li><a href="team.html">Our Team</a></li> -->
+                  <li><a href="ceo.html">Meet Our CEO </a></li>
+                  <!-- <li><a href="about-1.html">About</a></li> -->
+                  <!-- <li><a href="service.html">Our Service</a></li> -->
+                  <!-- <li><a href="service-details.html">Service Details</a></li> -->
+                  <li><a href="project-details.html">Our Projects</a></li>
+                  <li><a href="our_clients.html">Our Clients</a></li>
+                  <!-- <li><a href="project-details.html"> Our Projects  </a></li> -->
+                  <!-- <li><a href="location.html">Our Location </a></li> -->
+                  <!-- <li><a href="pricing.html">Our Pricing</a></li> -->
+                  <!-- <li><a href="careers.html">Careers </a></li> -->
+                  <!-- <li><a href="faqs.html">Faqs</a></li> -->
+                </ul>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="careers.html">Careers</a>
+                <!-- <ul class="sub-menu">
+                    <li><a href="blog-grid.html">Blog Grid</a></li>
+                    <li><a href="blog-list.html">Blog List</a></li>
+                    <li><a href="blog-2column.html">Blog 2column</a></li>
+                    <li><a href="blog-details.html">Blog Details </a></li>
+                  </ul> -->
+              </li>
+              <li class="menu-item-has-children">
+                <a href="blog-grid.html">Blog</a>
+              </li>
+              <!-- <li><a href="pricing.html">Pricing</a></li> -->
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--==================================================-->
+  <!-- End Toptech Header Area Inner Style-->
+  <!--==================================================-->
+
+  <!--==================================================-->
+  <!-- Start Main Menu Area -->
+  <!--==================================================-->
+  <div class="mobile-menu-area sticky d-sm-block d-md-block d-lg-none">
+    <div class="mobile-menu">
+      <nav class="header-menu">
+        <ul class="nav_scroll">
+          <li class="menu-item-has-children">
+            <a href="Home.html">Home</a>
+            <!-- <ul class="sub-menu">
+                <li><a href="index.html">Home 1</a></li>
+                <li><a href="index-2.html">Home 2</a></li>
+                <li><a href="index-3.html">Home 3</a></li>
+                <li><a href="index-4.html">Home 4</a></li>
+              </ul> -->
+          </li>
+          <li class="menu-item-has-children">
+            <a href="">About</a>
+            <!-- <ul class="sub-menu">
+                <li><a href="about-1.html">About Us 1</a></li>
+                <li><a href="about-2.html">About Us 2</a></li>
+              </ul> -->
+          </li>
+          <li class="menu-item-has-children">
+            <a href="#">Service</a>
+            <ul class="sub-menu">
+              <li><a href="service.html">Our Services</a></li>
+              <li><a href="service-details.html">Service Details</a></li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="case_study.html">Case Studies</a>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="#">Explore</a>
+            <ul class="sub-menu">
+              <!-- <li><a href="choose-us.html">Why Choose Us</a></li> -->
+              <!-- <li><a href="mission.html">Mission Visson </a></li> -->
+              <!-- <li><a href="team.html">Our Team</a></li> -->
+              <li><a href="ceo.html">Meet Our CEO </a></li>
+              <!-- <li><a href="about-1.html">About</a></li> -->
+              <!-- <li><a href="service.html">Our Service</a></li> -->
+              <!-- <li><a href="service-details.html">Service Details</a></li> -->
+              <li><a href="project-details.html">Our Projects</a></li>
+                <li><a href="our_clients.html">Our Clients</a></li>
+              <!-- <li><a href="project-details.html"> Our Projects  </a></li> -->
+              <!-- <li><a href="location.html">Our Location </a></li> -->
+              <!-- <li><a href="pricing.html">Our Pricing</a></li> -->
+              <!-- <li><a href="careers.html">Careers </a></li> -->
+              <!-- <li><a href="faqs.html">Faqs</a></li> -->
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="careers.html">Careers</a>
+            <!-- <ul class="sub-menu">
+                <li><a href="blog-grid.html">Blog Grid</a></li>
+                <li><a href="blog-list.html">Blog List</a></li>
+                <li><a href="blog-2column.html">Blog 2column</a></li>
+                <li><a href="blog-details.html">Blog Details </a></li>
+              </ul> -->
+          </li>
+          <li class="menu-item-has-children">
+            <a href="blog-grid.html">Blog</a>
+          </li>
+          <!-- <li><a href="pricing.html">Pricing</a></li> -->
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!--==================================================-->
+  <!-- End Main Menu Area -->
+  <!--==================================================-->
+<div class="breadcumb-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="breadcumb-content">
+              <h4>Our Clients</h4>
+              <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li>></li>
+                <li>Our Clients</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- End -->
+
+  <div class="container mb-5">
+
+    <div style="margin-top: 5%;">
+      <h2 class="partner">Partnering With Global Innovators To Build Next-Generation &nbsp;<br>Digital Solutions</h2>
+
+    </div>
+
+    <!-- add logs company -->
+    <div class="mt-5">
+
+
+      <!-- Row 1: 4 cards -->
+      <div class="row justify-content-center g-3">
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card">
+            <img src="assets/images/BuildMate.svg" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card"> 
+            <img src="assets/images/Anxaity.webp" class="anxiety" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card">
+            <img src="assets/images/ESG.webp" alt="" class="anxiety">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card">
+            <img src="assets/images/hoolsey.webp" alt="">
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 2: 4 cards -->
+       <div class="row justify-content-center mt-2 g-3">
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card">
+            <img src="assets/images/knoetic.png" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card">
+            <img src="assets/images/skoleom.png" alt="" class="anxiety">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card"> 
+            <img src="assets/images/wright.png" alt=""  style="height: 100px;">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card">
+            <img src="assets/images/netrola.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 3: 4 cards -->
+       <div class="row justify-content-center mt-2 g-3">
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card dt-card">
+            <img src="assets/images/dt.png" alt="" style="max-height: 280px;">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card"> 
+            <img src="assets/images/motion.svg" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card">
+            <img src="assets/images/GZ.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card">
+           <img src="assets/images/spinstatz.png" alt="Spinner" >
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 4: 4 cards -->
+       <div class="row justify-content-center mt-2 g-3">
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card">
+            <img src="assets/images/Ariot.png" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card"> 
+            <img src="assets/images/Regula.svg" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card">
+            <img src="assets/images/flex.png" alt="" class="anxiety">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card">
+           <img src="assets/images/homesifu.webp" class="anxiety" alt="">
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 5: 4 cards -->
+       <div class="row justify-content-center mt-2 g-3">
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card">
+            <img src="assets/images/swallow.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card"> 
+            <img src="assets/images/expense.png" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card">
+            <img src="assets/images/ocean.png" alt="" >
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card">
+           <img src="assets/images/MAK.png" alt="" >
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 6: 4 cards -->
+      <div class="row justify-content-center mt-2 g-3">
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card">
+           <img src="assets/images/logo.png" class="anxiety" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card">
+            <img src="assets/images/logo.avif" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card"> 
+            <img src="assets/images/creator.png" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card">
+            <img src="assets/images/nibble.webp" alt="" >
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 7: 4 cards -->
+       <div class="row justify-content-center mt-2 g-3">
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card">
+           <img src="assets/images/padelize.png" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card">
+           <img src="assets/images/shoe.png" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card">
+            <img src="assets/images/digital_ocean.png" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg">
+          <div class="card client-card anxiety-card">
+           <img src="assets/images/prime.png" alt="">
+          </div>
+        </div>
+      </div>
+       <!--  -->
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--==================================================-->
+  <!-- Start Toptech Footer Area Style One-->
+  <!--==================================================-->
+  <div class="footer-area style-one">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-logo">
+            <a href="Home.html" class=" "><img src="assets/images/Horizontal Logo.png" alt="logo" height="60px"
+                style="filter: brightness(100)" />
+            </a>
+          </div>
+          <div class="footer-widget-desc">
+            <p>
+              Empowering businesses with top-tier IT solutions and development
+              services.
+            </p>
+          </div>
+          <div class="toptech-button inner-style">
+            <a href="#">Discover More<i class="bi bi-arrow-right-short"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div class="footer-widget-content">
+            <div class="footer-widget-title">
+              <h4>Company</h4>
+            </div>
+            <div class="footer-widget-menu">
+              <ul>
+                <li>
+                  <a href="About.html"><i class="bi bi-arrow-right-circle"></i>About</a>
+                </li>
+                <li>
+                  <a href="ceo.html"><i class="bi bi-arrow-right-circle"></i>Meet Our CEO</a>
+                </li>
+                <li>
+                  <a href="service.html"><i class="bi bi-arrow-right-circle"></i>Our Services</a>
+                </li>
+                <li>
+                  <a href="service-details.html"><i class="bi bi-arrow-right-circle"></i>Service
+                    Details</a>
+                </li>
+                <!-- <li><a href="project.html"><i class="bi bi-arrow-right-circle"></i>Our Project</a></li> -->
+                <li>
+                  <a href="project-details.html"><i class="bi bi-arrow-right-circle"></i>Our Projects</a>
+                </li>
+                                <li><a href="our_clients.html"><i class="bi bi-arrow-right-circle"></i>Our Clients</a></li>
+                <li>
+                  <a href="case_study.html"><i class="bi bi-arrow-right-circle"></i>Case Studies</a>
+                </li>
+                <li>
+                  <a href="careers.html"><i class="bi bi-arrow-right-circle"></i>Careers</a>
+                </li>
+                <li>
+                  <a href="blog-grid.html"><i class="bi bi-arrow-right-circle"></i>Blog</a>
+                </li>
+                <li>
+                  <a href="contact.html"><i class="bi bi-arrow-right-circle"></i>Contact</a>
+                </li>
+
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-widget-content">
+            <div class="footer-widget-title">
+              <h4>Our Services</h4>
+            </div>
+            <div class="footer-widget-menu">
+              <ul>
+                <li>
+                  <a href="service-details.html"><i class="bi bi-arrow-right-circle"></i>Custom
+                    Software</a>
+                </li>
+                <li>
+                  <a href="service-details.html"><i class="bi bi-arrow-right-circle"></i> Web
+                    Development</a>
+                </li>
+                <li>
+                  <a href="service-details.html"><i class="bi bi-arrow-right-circle"></i>Mobile
+                    Development</a>
+                </li>
+                <li>
+                  <a href="service-details.html"><i class="bi bi-arrow-right-circle"></i> UI/UX Design
+                    Services</a>
+                </li>
+                <!-- <li><a href="#"><i class="bi bi-arrow-right-circle"></i>Data Analytics</a></li> -->
+                <li>
+                  <a href="service-details.html"><i class="bi bi-arrow-right-circle"></i>Staff
+                    Augmentation</a>
+                </li>
+                <li>
+                  <a href="service-details.html"><i class="bi bi-arrow-right-circle"></i>Machine
+                    Learning</a>
+                </li>
+                <li>
+                  <a href="service-details.html"><i class="bi bi-arrow-right-circle"></i>Salesforce</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-widget-content">
+            <div class="footer-widget-title">
+              <h4>Social Media</h4>
+            </div>
+            <!-- <p class="f-desc-2"> Enter your email</p> -->
+            <div class="footer-botton-social-icon1">
+              <ul>
+                <!-- <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li> -->
+                <!-- <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li> -->
+                <li>
+                  <a href="https://pk.linkedin.com/company/projectz-incorporated"><i
+                      class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="https://wa.me/923034843811"><i class="fa-brands fa-whatsapp me-5 set"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="footer-bottom-area">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="footer-bottom-content">
+                <p>
+                  Copyright © 2020 Projectz Incorporated, All rights reserved.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="footer-botton-social-icon">
+                <ul>
+                  <!-- <li><a href="https://pk.linkedin.com/company/projectz-incorporated"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="https://wa.me/923034843811"><i class="fa-brands fa-whatsapp me-5 set"></i></a></li>
+     -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--==================================================-->
+  <!-- End Toptech Footer Area Style One-->
+  <!--==================================================-->
+
+  <!--==================================================-->
+  <!-- Start Toptech Scroll Up-->
+  <!--==================================================-->
+  <div class="prgoress_indicator active-progress">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="
+            transition: stroke-dashoffset 10ms linear 0s;
+            stroke-dasharray: 307.919, 307.919;
+            stroke-dashoffset: 212.78;
+          "></path>
+    </svg>
+  </div>
+  <!--==================================================-->
+  <!-- End Toptech Scroll Up-->
+  <!--==================================================-->
+
+  <!-- jquery js -->
+  <script src="assets/js/vendor/jquery-3.6.2.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- carousel js -->
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <!-- animated-text js -->
+  <script src="assets/js/animated-text.min.js"></script>
+  <!-- wow js -->
+  <script src="assets/js/wow.min.js"></script>
+  <!-- ajax-mail js -->
+  <script src="assets/js/ajax-mail.min.js"></script>
+  <!-- imagesloaded js -->
+  <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+  <!-- venobox js -->
+  <script src="venobox/venobox.js"></script>
+  <!--  animated-text js -->
+  <script src="assets/js/animated-text.min.js"></script>
+  <!-- venobox min js -->
+  <script src="venobox/venobox.min.js"></script>
+  <!-- jquery meanmenu js -->
+  <script src="assets/js/jquery.meanmenu.min.js"></script>
+  <!-- theme js -->
+  <script src="assets/js/theme.min.js"></script>
+  <!-- Cousom carousel js -->
+  <script src="assets/js/coustom-carousel.min.js"></script>
+  <script src="assets/js/scroll-up.min.js"></script>
+</body>
+
+</html>
+</html>
