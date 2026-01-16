@@ -127,11 +127,7 @@
         position: relative;
         top: 13px;
         font-weight: 700;
-       
-         
       }
-
-
 br{
   display: none !important;
 }
@@ -154,14 +150,23 @@ br{
       .client-card img {
         max-height: 100px;
       }
+.set_row_br{
+  flex-direction: column !important;
+}
+.set_col_3{
+  width: 100% !important;
+}
+
     }
 
     /* Tablet screens - 2 cards per row */
     @media (min-width: 768px) and (max-width: 991px) {
+      .set_col_3{
+  width: 50% !important;
+}
       .partner {
-        font-size: 36px;
-        position: relative;
-        top: 31px;
+        font-size: 40px;
+      
         font-weight: 700;
       }
 
@@ -414,8 +419,8 @@ br{
 
   <div class="container mb-5">
 
-    <div style="margin-top: 5%; max-width: 900px; margin: auto;">
-      <h2 class="partner" style="margin-top: 7%;">Partnering With Global Innovators To Build Next-Generation Digital Solutions</h2>
+    <div style="margin-top: 5%;">
+      <h2 class="partner">Partnering With Global Innovators To Build Next-Generation &nbsp;<br>Digital Solutions</h2>
 
     </div>
 
@@ -591,6 +596,19 @@ br{
         </div>
       </div>
        <!--  -->
+   <!-- Row 8: 5 cards -->
+              <div class="row mt-2 g-3 set_row_br">
+        <div class="col-3 set_col_3">
+          <div class="card client-card anxiety-card">
+           <img src="assest/images/elra.png" alt="">
+          </div>
+        </div>
+            <div class="col-3 set_col_3">
+          <div class="card client-card anxiety-card">
+           <img src="assest/images/code_scanner.png" alt="">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
